@@ -1,0 +1,46 @@
+{
+  "name": "ppk-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --hot --progress",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --colors --progress --mode development",
+    "build": "cross-env NODE_ENV=production webpack --progress --colors -p --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://igit.58corp.com/fangfe/ppk-site.git"
+  },
+  "author": "yangmin18",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "jshint": "^2.9.5",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.8.1",
+    "webpack-api-mocker": "^1.5.1",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "anima-fx": "^2.0.1",
+    "fetch-jsonp": "^1.1.3",
+    "frs-cli": "^6.0.1",
+    "zepto-webpack": "^1.2.1"
+  }
+}
